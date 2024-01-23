@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Greeting
         run: echo "Hello world!"
+      - name: test kustomize
+        run: kustomize version
       - name: Print Good Bye
         run: echo "Done - Bye!"
